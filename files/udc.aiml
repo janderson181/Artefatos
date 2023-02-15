@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml> 
+  
+     <category> 
+         <pattern> # HORÁRIO # AULA # </pattern> 
+         <template> 
+             <random> 
+                 <li> Eles podem variar de acordo com o turno  </li> 
+             </random> 
+         </template> 
+     </category>  
+ 
+   <category> 
+         <pattern> # COMEÇAM # AULAS # </pattern> 
+         <template> 
+             <random> 
+                 <li> As aulas se iniciam às 7 horas da manhã.  </li> 
+             </random> 
+         </template> 
+     </category>  
+
+        <category> 
+         <pattern> # TERMINAM # AULAS # </pattern> 
+         <template> 
+             <random> 
+                 <li> Isso dependerá do turno, no matutino é 12h20, no vespertino é 18h20 e no noturno de 22h40.  </li> 
+             </random> 
+         </template> 
+     </category>  
+     
+     <category> 
+         <pattern> # TURNO # MATUTINO # </pattern> 
+         <template> 
+             <random> 
+                 <li> O horário se inicia às 7h00 até 12h20.</li> 
+             </random> 
+         </template> 
+     </category>  
+     
+     <category> 
+         <pattern> # TURNO # VESPERTINO # </pattern> 
+         <template> 
+             <random> 
+                 <li> O horário se inicia às 19h00 até 22h40</li> 
+             </random> 
+         </template> 
+     </category>  
+     
+     <category> 
+         <pattern> # TURNO # NOTURNO # </pattern> 
+         <template> 
+             <random> 
+                 <li> O horário se inicia às 19h00 até 22h40. </li> 
+             </random> 
+         </template> 
+     </category>  
+     
+       <category> 
+         <pattern> # QUANDO # INTERVALO # </pattern> 
+         <template> 
+             <random> 
+                 <li> Isso dependerá do turno</li> 
+             </random> 
+         </template> 
+     </category>  
+     
+       <category> 
+         <pattern> # QUANTOS # INSTITUTOS # </pattern> 
+         <template> 
+             <random> 
+                 <li> Possui 16 compi, espalhado pelo território alagoano.</li> 
+             </random> 
+         </template> 
+     </category>  
+     
+       <category> 
+         <pattern> # IFAL # É # </pattern> 
+         <template> 
+             <random> 
+                 <li> O IFAL é uma instituição de educação superior, básica e profissional, pluricurricular e multicampi, especializada na oferta de educação profissional e tecnológica nas diferentes modalidades de ensino, com base na conjugação de conhecimentos técnicos e tecnológicos com as suas práticas pedagógicas, nos termos da Lei vigente.</li> 
+             </random> 
+         </template> 
+     </category>  
+     <category> 
+         <pattern> # DIFERENÇA # IFAL # </pattern> 
+         <template> 
+             <random> 
+                 <li> O Instituto Federal de Ciência e Tecnologia de Alagoas é uma autarquia federal e detém autonomia administrativa, sendo assim, é uma rede educacional federal com maior promoção de desenvolvimento.</li> 
+             </random> 
+         </template> 
+     </category>  
+     <category> 
+         <pattern> # CURSOS # IFAL # </pattern> 
+         <template> 
+             <random> 
+                 <li> O Ifal oferece 4 tipos de cursos técnicos, com duração de 3 anos, sendo eles: edificações, eletrotécnica, informática e segurança do trabalho.</li> 
+             </random> 
+         </template> 
+     </category>  
+     <category> 
+         <pattern> # CONCLUSÃO # CURSO # </pattern> 
+         <template> 
+             <random> 
+                 <li> Para concluir o ensino médio técnico do IFAL, se urge a finalização das matérias comuns do ensino médio e a prática profissional.</li> 
+             </random> 
+         </template> 
+     </category>  
+     <category> 
+         <pattern> # PRÁTICA # PROFISSIONAL # </pattern> 
+         <template> 
+             <random> 
+                 <li> É a atividade curricular realizada pelos alunos matriculados, com o objetivo de desenvolver suas habilidades do curso.</li> 
+             </random> 
+         </template> 
+     </category>  
+     <category> 
+         <pattern> # FORMAS # PRÁTICA # </pattern> 
+         <template> 
+             <random> 
+                 <li> Existem diversos tipos de executá-la, contudo, é melhor entrar em contato com o coordenador de curso.</li> 
+             </random> 
+         </template> 
+     </category>  
+      <category> 
+         <pattern> # TIPOS # PRÁTICA # </pattern> 
+         <template> 
+             <random> 
+                 <li> As práticas profissionais podem ser feitas através de organizações públicas, privadas ou no instituto, por meio de estágios, projetos, TCC, monitoria entre outros, contudo deve-se ter um discente como orientador, para mais detalhes, consulte o coordenador do curso.</li> 
+             </random> 
+         </template> 
+     </category>  
+      <category> 
+         <pattern> # OBRIGATÓRIO # PRÁTICA # </pattern> 
+         <template> 
+             <random> 
+                 <li> Sim, é uma atividade curricular obrigatória para conseguir o diploma técnico.</li> 
+             </random> 
+         </template> 
+     </category>  
+      <category> 
+         <pattern> # SELEÇÃO # IFAL # </pattern> 
+         <template> 
+             <random> 
+                 <li> Por meio, principalmente, de processo seletivo ou por transferência mediante a existência de vagas.</li> 
+             </random> 
+         </template> 
+     </category>  
+      <category> 
+         <pattern> # ANULAÇÃO # MATRÍCULA # </pattern> 
+         <template> 
+             <random> 
+                 <li> Quando realizada com documentos falsos ou adulterados, ficando o responsável passível de implicações legais.</li> 
+             </random> 
+         </template> 
+     </category>  
+      <category> 
+         <pattern> # RENOVAÇÃO # MATRÍCULA # </pattern> 
+         <template> 
+             <random> 
+                 <li> Deve ser feita, obrigatoriamente, no início de cada período letivo. Mesmo quando houver prática profissional e/ou trabalho de conclusão de curso após cursar todas as disciplinas que integram o currículo, a solicitação de renovação de matrícula também é obrigatória e imprescindível.</li> 
+             </random> 
+         </template> 
+     </category> 
+     <category> 
+         <pattern> # TRANCAMENTO # MATRÍCULA # </pattern> 
+         <template> 
+             <random> 
+                 <li> Convocação para o serviço militar obrigatório; 
+Tratamento prolongado de saúde;
+Gravidez de alto risco e pós-parto;
+Trabalho;
+Inviabilidade de oferta do curso pela instituição;
+Mudança de domicílio (realizada para outro município e que inviabilize a frequência do aluno, que deverá requerer, para tanto, parecer do Setor de Serviço Social).</li> 
+             </random> 
+         </template> 
+     </category>  
+     <category> 
+         <pattern> # TRANCAMENTO # VOLUNTÁRIO # </pattern> 
+         <template> 
+             <random> 
+                 <li> É o processo no qual o estudante faz a opção pela interrupção dos estudos, até 2 (duas) vezes durante o curso e o tempo será contabilizado para efeito de cálculo do prazo máximo para integralização curricular;</li> 
+             </random> 
+         </template> 
+     </category>  
+     <category> 
+         <pattern> # CONDIÇÕES # MATRÍCULA # </pattern> 
+         <template> 
+             <random> 
+                 <li> Será permitida ao aluno que teve matrícula cancelada, observando sua regulamentação e também uma única vez a cada aluno, estando condicionada à existência de vagas no curso e não será concedida quando o tempo previsto para a conclusão ultrapassar o tempo máximo de integralização do curso.</li> 
+             </random> 
+         </template> 
+     </category>  
+     <category> 
+         <pattern> # CANCELAR # MATRÍCULA # </pattern> 
+         <template> 
+             <random> 
+                 <li>Poderá ser feito mediante requerimento do aluno ou por iniciativa da Instituição, por motivo disciplinar ou algum tipo de reprovação.</li> 
+             </random> 
+         </template> 
+     </category>  
+     <category> 
+         <pattern> # COMO # TRANSFERÊNCIA # </pattern> 
+         <template> 
+             <random> 
+                 <li> Que haja a disponibilidade de vaga no campus desejado.</li> 
+             </random> 
+         </template> 
+     </category>  
+     <category> 
+         <pattern> # EQUIVALÊNCIA # </pattern> 
+         <template> 
+             <random> 
+                 <li> O ingresso por equivalência poderá ser admitido aos portadores de diploma ou certificado de conclusão de curso, respectivamente, aos cursos tecnológicos e técnicos do IFAL, desde que constatada a existência de vagas.</li> 
+             </random> 
+         </template> 
+     </category>  
+     <category> 
+         <pattern> # REOPÇÃO # </pattern> 
+         <template> 
+             <random> 
+                 <li> O ingresso por reopção poderá ser permitido ao aluno do IFAL para outro curso da mesma área e/ou áreas de conhecimentos afins.</li> 
+             </random> 
+         </template> 
+     </category>  
+     <category> 
+         <pattern> # SEGUNDA # AVALIAÇÃO # </pattern> 
+         <template> 
+             <random> 
+                 <li> Doença;
+Morte na família;
+Acompanhamento de familiares com problemas de saúde;
+Trabalho;
+Prestação de serviço militar;
+Viagens representando a instituição de ensino;
+Participação, como candidato, em concursos ou seleções públicas;  Participação em eventos acadêmicos;
+Problemas de transporte coletivo;
+Convocação judicial.</li> 
+             </random> 
+         </template> 
+     </category>  
+     <category> 
+         <pattern> # EXAME # COMPETÊNCIAS # </pattern> 
+         <template> 
+             <random> 
+                 <li> Este será admitido para efeito de aproveitamento de conhecimentos adquiridos em cursos ou experiência profissional.</li> 
+             </random> 
+         </template> 
+     </category>
+     <category> 
+         <pattern> # PROGRESSÃO # PARCIAL # </pattern> 
+         <template> 
+             <random> 
+                 <li> É o processo que permite ao estudante seguir para série posterior, mesmo tendo sido reprovado em componentes curriculares em séries anteriores.
+As formas mais importantes são: intensiva e concomitante.</li> 
+             </random> 
+         </template> 
+     </category>
+     <category> 
+         <pattern> # DIPLOMA # TÉCNICO # </pattern> 
+         <template> 
+             <random> 
+                 <li> É necessário a prática profissional, para se obter o diploma técnico do ensino médio.</li> 
+             </random> 
+         </template> 
+     </category>
+     <category> 
+         <pattern> # AVALIACAO # APRENDIZAGEM # IFAL # </pattern> 
+         <template> 
+             <random> 
+                 <li> Esta será realizada em função das necessidades expostas nos planos do curso, no qual apresenta três momentos: diagnóstico, formativo e somativo.</li> 
+             </random> 
+         </template> 
+     </category>
+     <category> 
+         <pattern> # BONS # ESTUDOS # </pattern> 
+         <template> 
+             <random> 
+                 <li> Estude adequadamente, cuide bem da saúde, tenha um bom local de estudos, assim como organizar o tempo e se manter atualizado.</li> 
+             </random> 
+         </template> 
+     </category>
+     <category> 
+         <pattern> # PRA QUE # ESTUDAR # </pattern> 
+         <template> 
+             <random> 
+                 <li> Estudar é uma atividade importante, a qual precisa ser feita constantemente com a finalidade de alcançar o sucesso.</li> 
+             </random> 
+         </template> 
+     </category>
+     <category> 
+         <pattern> # FARDAMENTO # </pattern> 
+         <template> 
+             <random> 
+                 <li> O aluno ou aluna deverá vir com a camisa oficial, calçado fechado saia jeans azul ou preta ou calça jeans nas mesmas cores.</li> 
+             </random> 
+         </template> 
+     </category>
+     <category> 
+         <pattern> # CAMISA # JOGOS # </pattern> 
+         <template> 
+             <random> 
+                 <li> Sim, porém apenas nos dias de sexta-feira.</li> 
+             </random> 
+         </template> 
+     </category>
+     <category> 
+         <pattern> # SIGNIFICA # SIGAA # </pattern> 
+         <template> 
+             <random> 
+                 <li> Sistema integrado de gestão de  atividades acadêmicas. </li> 
+             </random> 
+         </template> 
+     </category>
+     <category> 
+         <pattern> # É # SIGAA # </pattern> 
+         <template> 
+             <random> 
+                 <li> É o sistema online integrado, o qual possibilita que os alunos ou discentes tenham acesso a diversas informações.</li> 
+             </random> 
+         </template> 
+     </category>
+     <category> 
+         <pattern> # ACESSAR # SIGAA # </pattern> 
+         <template> 
+             <random> 
+                 <li>  acesse através do site: http://sigaa.ifal.edu.br.</li> 
+             </random> 
+         </template> 
+     </category>
+     <category> 
+         <pattern> # MEDIDAS # DISCIPLINARES # </pattern> 
+         <template> 
+             <random> 
+                 <li>  I. advertência verbal;
+II. advertência escrita com comunicação aos pais;
+III. suspensão da frequência das atividades regulares da disciplina;
+IV. suspensão da frequência das atividades regulares da classe;
+V. suspensão da frequência das atividades regulares do Campus;
+VI. transferência de turma;
+VII. perda da residência estudantil;
+VIII. exclusão do IFAL.</li> 
+             </random> 
+         </template> 
+     </category>
+     <category> 
+         <pattern> # AGRESSÕES # MODERADAS # </pattern> 
+         <template> 
+             <random> 
+                 <li> a) desrespeito, ofensa, provocação injusta;
+b) impedimento, sob qualquer pretexto ou hipótese, do acesso de qualquer pessoa à instituição;
+c) promoção de qualquer forma de arrecadação pecuniária nas dependências da instituição sem o prévio conhecimento e a devida autorização do IFAL;
+d) arrecadação pecuniária utilizando qualquer elemento identificador do IFAL, sem a devida autorização;
+e) uso de trajes inadequados e que firam o decoro ou qualquer norma de segurança exigida
+pelo setor;
+f) uso de fumo nas dependências do IFAL;
+g) representação do IFAL sem a devida autorização;
+h) exercício de atividades comerciais no âmbito da Instituição;
+i) interrupção ou conturbação de qualquer atividade didático-pedagógica e/ou técnico-administrativa;
+j) utilização de aparelhos eletroeletrônicos que interfiram no desenvolvimento das atividades didático-pedagógicas e/ou técnico-administrativas.
+</li> 
+             </random> 
+         </template> 
+     </category>
+     <category> 
+         <pattern> # AGRESSÕES # GRAVES # </pattern> 
+         <template> 
+             <random> 
+                 <li> a) agressão física ou moral;
+b) utilização de meios ilícitos para obter quaisquer vantagens, inclusive frequência, nota e conceito;
+c) retirada de qualquer ambiente, sem autorização, de documentos, livros, equipamentos ou bens pertencentes ao patrimônio público ou a terceiros;
+d) agiotagem, jogos de azar, apostas ou atos que a lei repute como ilícitos;
+e) utilização de redes de computadores, laboratórios, instalações esportivas e demais instalações do IFAL, sem objetivos didático-pedagógicos;
+f) empréstimo ou cessão de instrumento oficial de identificação do IFAL, que possibilite a entrada de pessoas estranhas na Instituição,
+g) danos diretos ou indiretos ao patrimônio público;
+h) realização de trotes que, em sua execução, viole ou atente contra qualquer direito fundamental do cidadão;
+i) prática de atos obscenos;
+j) prática de atos que causem constrangimento físico, moral ou emocional (bullying) a qualquer pessoa no âmbito do IFAL.
+</li> 
+             </random> 
+         </template> 
+     </category>
+     <category> 
+         <pattern> # AGRESSÕES # GRAVÍSSIMAS # </pattern> 
+         <template> 
+             <random> 
+                 <li> a) alteração de documentos oficiais do IFAL;
+b) ingresso ou permanência nas dependências do IFAL ou durante o desenvolvimento de quaisquer atividades didático-pedagógicas sob efeito de bebidas alcoólicas ou de qualquer outra substância tóxica proibida por lei;
+c) prática de atos libidinosos;
+d) porte, uso ou indução de bebidas alcoólicas ou de qualquer outra substância tóxica proibida por lei, nas dependências do IFAL ou durante o desenvolvimento atividades didático-pedagógicas;
+e) uso, porte e guarda de armas
+
+</li> 
+             </random> 
+         </template> 
+     </category>
+     <category> 
+         <pattern> # ESPAÇO # 4,0 # </pattern> 
+         <template> 
+             <random> 
+                 <li> O Espaço 4.0 destina-se ao  ambiente criativo de inovação, o qual tem o objetivo educacional, com a instalação de contêineres customizados e equipados com modernos recursos em tecnologia</li> 
+             </random> 
+         </template> 
+     </category>
+     <category> 
+         <pattern> # OBJETIVOS # ESPAÇO # 4,0 # </pattern> 
+         <template> 
+             <random> 
+                 <li> A formação e capacitação de jovens e adultos entre 15 e 29 anos.</li> 
+             </random> 
+         </template> 
+     </category>
+     <category> 
+         <pattern> # CURSOS # ESPAÇO # 4,0 # </pattern> 
+         <template> 
+             <random> 
+                 <li> É aberto vagas em determinados períodos do ano, oferecendo inúmeras vagas de diversos cursos para todo o público, basta ficar de olho nas redes sociais.</li> 
+             </random> 
+         </template> 
+     </category>
+     <category> 
+         <pattern> # CONTATOS # ESPAÇO # 4,0 # </pattern> 
+         <template> 
+             <random> 
+                 <li> Instagram: @espaço4.0ifal
+E-mail: espaco4.0@ifal.edu.br </li> 
+             </random> 
+         </template> 
+     </category>
+     <category> 
+         <pattern> # REITORIA # ENSINO # </pattern> 
+         <template> 
+             <random> 
+                 <li> Tem como principal função executar as atividades estudantis. Dessa forma, a pró-reitoria de ensino planeja, fomenta e acompanha as atividades e políticas homologadas pelo conselho superior.
+</li> 
+             </random> 
+         </template> 
+     </category>
+     <category> 
+         <pattern> # CONSELHO # SUPERIOR # </pattern> 
+         <template> 
+             <random> 
+                 <li> O Conselho Superior tem caráter consultivo e deliberativo e é o órgão supremo do Instituto Federal de Alagoas. Trata de questões de ensino, pesquisa e extensão, além de questões administrativas, econômicas, orçamentárias e financeiras, bem como das relações sociais, de trabalho e de vida.</li> 
+             </random> 
+         </template> 
+     </category>
+     <category> 
+         <pattern> # INTEGRANTES # CONSELHO # SUPERIOR # </pattern> 
+         <template> 
+             <random> 
+                 <li> I. o Reitor, como presidente;
+II. representação de 1/3 (um terço) do número de campi, destinada aos servidores docentes, sendo o mínimo de 02 (dois) e o máximo de 05 (cinco) representantes e igual número de suplentes, eleitos por seus pares, na forma regimental;
+III. representação de 1/3 (um terço) do número de campi, destinada ao corpo discente, sendo o mínimo de 02 (dois) e o máximo de 05 (cinco) representantes e igual número de suplentes, eleitos por seus pares, na forma regimental;
+IV. representação de 1/3 (um terço) do número de campi, destinada aos servidores técnico-administrativos, sendo o mínimo de 02 (dois) e o máximo de 05 (cinco) representantes e igual número de suplentes, eleitos por seus pares, na forma regimental;
+V. 02 (dois) representantes dos egressos e igual número de suplentes;
+VI. 06 (seis) representantes da sociedade civil e igual número de suplentes, sendo 02 (dois) indicados por entidades patronais, 02 (dois) indicados por entidades dos trabalhadores, 02 (dois) representantes do setor público e/ou empresas estatais, designados pela Secretaria de Educação Profissional e Tecnológica.
+VII. 01 (um) representante e 01 (um) suplente do Ministério da Educação, designados pela Secretaria de Educação Profissional e Tecnológica;
+VIII. representação de 1/3 (um terço) dos diretores-gerais de Campi, sendo no mínimo de 02 (dois) e o máximo de 05 (cinco) e igual número de suplentes, eleitos por seus pares, na forma regimental.
+</li> 
+             </random> 
+         </template> 
+     </category>
+     <category> 
+         <pattern> # CONTATO # CONSELHO # SUPERIOR # </pattern> 
+         <template> 
+             <random> 
+                 <li> Telefones: (82) – 3194-1135/98174-8802
+E-mail: secretaria.colegiados@ifal.edu.br
+</li> 
+             </random> 
+         </template> 
+     </category>
+     <category> 
+         <pattern> # LOCAL # CONSELHO # SUPERIOR # </pattern> 
+         <template> 
+             <random> 
+                 <li> É o sistema online integrado, o qual possibilita que os alunos ou discentes tenham acesso a diversas informações.</li> 
+             </random> 
+         </template> 
+     </category>
+     <category> 
+         <pattern> # DIFERENÇA # INTEGRADO # SUBSEQUENTE # </pattern> 
+         <template> 
+             <random> 
+                 <li> A diferença é que no Curso Técnico Integrado você fará os componentes curriculares da Formação Profissional e da Formação Geral no mesmo curso, a ao final você terá o ensino médio concluído com a habilitação técnica na área que você escolheu. Para fazer um curso técnico integrado é preciso ter comprovante de conclusão do Ensino Fundamental ou equivalente até a data da matrícula. Já no Curso Técnico Subsequente, que também é de nível médio, você precisa ter concluído o Ensino Médio, e para se candidatar a uma vaga, precisa ter o certificado de conclusão do ensino médio, ou equivalente, até a data da matrícula.
+</li> 
+             </random> 
+         </template> 
+     </category>
+     <category> 
+         <pattern> # É # CURSO # SUBSEQUENTE # </pattern> 
+         <template> 
+             <random> 
+                 <li> O curso técnico subsequente é voltado para quem já tem o ensino médio. Assim, o estudante que quiser fazelo, vai ter a formação profissional e tecnológica escolhida e, ao fim do curso, terá o certificado que possibilitará o ingresso no mercado de trabalho.
+</li> 
+             </random> 
+         </template> 
+     </category>
+</aiml>
